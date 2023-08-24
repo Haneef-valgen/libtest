@@ -1,0 +1,59 @@
+{
+  "name": "val-my-lib",
+  "version": "0.0.16",
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.5",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-dts": "^6.0.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@storybook/addon-essentials": "^7.3.2",
+    "@storybook/addon-interactions": "^7.3.2",
+    "@storybook/addon-links": "^7.3.2",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.3.2",
+    "@storybook/react": "^7.3.2",
+    "@storybook/react-vite": "^7.3.2",
+    "@storybook/testing-library": "^0.2.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-storybook": "^0.6.13",
+    "postcss": "^8.4.28",
+    "rollup": "^3.28.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "storybook": "^7.3.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
