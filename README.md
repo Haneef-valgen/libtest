@@ -1,5 +1,5 @@
 # React + TypeScript + Vite
-This dummy playground where we can import and test our library components
+This is dummy library Where we can test our components before deploying to main library
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
