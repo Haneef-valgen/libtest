@@ -86,11 +86,14 @@ export default [{
 
     postcss({
 
-        plugins: [],
+      plugins: [],
 
-        minimize: true,
+      minimize: true,
 
-        extensions: ['.css']
+      extensions: ['.css'],
+      extract:false,
+      modules:true,
+      use:['sass']
 
     })
 
@@ -104,6 +107,6 @@ export default [{
 
   plugins: [dts.default()],
 
-  external: [/\.css$/]
+  external: [/\.css$/,/\.scss$/]
 
 },]

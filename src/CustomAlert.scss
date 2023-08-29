@@ -1,0 +1,37 @@
+.slider-errormsg-box {
+
+    width: 100%;
+  
+    position: relative;
+  
+   
+  
+    .slider-errormsg-snackbar {
+  
+      position: absolute;
+  
+      width: 85%;
+  
+      bottom: 50px;
+  
+   
+  
+      .slider-errormsg-alert {
+  
+        color: rgb(95, 33, 32);
+  
+        background-color: rgb(253, 237, 237);
+  
+        .MuiAlert-icon{
+  
+        color: rgb(239, 83, 80);
+  
+        }
+  
+      }
+  
+    }
+  
+  }
+  
+ 
